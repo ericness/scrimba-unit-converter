@@ -1,0 +1,81 @@
+body {
+    background: black;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#window {
+    width: 550px;
+    height: 730px;
+
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 285px;
+    background: #6943FF;
+}
+
+#title {
+    color: white;
+    font-weight: 800;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#amount-input {
+    height: 60px;
+    width: 100px;
+    color: white;
+    font-weight: 800;
+    font-size: 40pt;
+    text-align: center;
+    background: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+#convert-btn {
+    color: #3D3D3D;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+#conversions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #1F2937;
+    height: 445px;
+}
+
+.conversion {
+    background: #273549;
+    height: 110px;
+    width: 500px;
+    text-align: center;
+}
+
+.conversion-header {
+    font-weight: 600;
+    color: #CCC1FF;
+}
+
+.conversion-text {
+    color: white;
+    font-size: 11pt;
+}
